@@ -1,0 +1,11 @@
+<div>
+    <div class="text-2xl my-2">{{current.city}}, {{current.country}}</div>
+    <div>{{current.date | date:'fullDate'}}</div>
+    <div class="my-4">
+        <span class="text-6xl">{{current.temperature | number:'1.0-0'}}˚F</span>
+    </div>
+    <div>
+        {{current.description}}
+    </div>
+
+</div>
